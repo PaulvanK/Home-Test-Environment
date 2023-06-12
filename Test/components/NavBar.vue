@@ -1,13 +1,7 @@
 <template>
   <div
     data="vue"
-    class="
-      sidenav
-      navbar navbar-vertical
-      fixed-left
-      navbar-expand-xs navbar-light
-      bg-white
-    "
+    class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-white"
   >
     <div class="scrollbar-inner ps ps--active-y">
       <div class="sidenav-header d-flex align-items-center">
@@ -188,11 +182,30 @@
 <script></script>
 
 <style>
+.sidenav {
+  max-width: 250px !important;
+  display: block;
+}
+
 .sidenav-header {
   height: 78px;
 }
 
 .navbar-brand {
   display: block;
+}
+
+.navbar-brand-img {
+  max-width: 120%;
+}
+
+.navbar-inner {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-muted {
+  color: #8898aa !important;
+  text-transform: uppercase;
 }
 </style>
