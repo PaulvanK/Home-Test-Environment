@@ -1,0 +1,1 @@
+Allow drivers to say through ChatGPT if there was anything special about an order, and make it push a message through to Crisp. Eventually allow drivers to assign the correct staff member.
